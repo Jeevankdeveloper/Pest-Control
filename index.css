@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-color: beige;
+}
+
+
+#header {
+    height: 120px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: rgb(63, 18, 105);
+}
+
+#header>img {
+    height: 74px;
+    width: 153px;
+    margin: 15px 0px 1px 85px;
+}
+
+#header>ul {
+    float: right;
+    list-style-type: none;
+}
+
+#header>ul>li {
+    float: left;
+    color: white;
+    margin: 26px 26px 2px 4px;
+    font-size: 18px;
+}
+
+li>select {
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+
+li>select>option {
+    background-color: transparent;
+    color: black;
+}
+
+#banner {
+    background-image: url(images/banner.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+#banner-text {
+    border: 11px solid black;
+    height: 245px;
+    width: 50%;
+    top: 90px;
+    left: 90px;
+    position: relative;
+    box-shadow: 10px 14px 11px grey;
+}
+
+#banner-text>h1 {
+    color: orange;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+#banner-text>h2 {
+    color: rgb(118, 113, 195);
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+#Services {
+    /* border: 1px solid rgb(63, 18, 105); */
+    height: 900px;
+    width: 84%;
+    margin-left: 8%;
+}
+
+#Services>center>h1 {
+    font-size: 48px;
+    color: rgb(221, 18, 18)
+}
+
+#card {
+    /* border: 1px solid black; */
+    height: 350px;
+    width: 247px;
+    margin: 30px 0px 0px 72px;
+    background-color: rgb(152, 183, 173);
+    float: left;
+    border-radius: 5px;
+}
+
+#card:hover {
+    transform: scale(1.1);
+}
+
+#card>img {
+    height: 300px;
+    width: 100%;
+}
+
+#card>h2 {
+    margin: 6px 0px 0px 11px;
+}
+
+#footer {
+    background-color: #300032;
+    height: 150px;
+    width: 100%;
+    color: white;
+}
+
+#footer>center>h3 {
+    padding-top: 66px;
+    font-size: 25px;
+    position: relative;
+}
+
+#call {
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 76px;
+    right: 10px;
+
+}
